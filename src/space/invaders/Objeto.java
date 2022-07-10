@@ -29,6 +29,13 @@ public abstract class Objeto {
     public void setVel_y(int vel_y) {
         this.vel_y = vel_y;
     }
+    //Generate constructor with all the attributes of the class.
+    public Objeto(int x, int y, int vel_x, int vel_y) {
+        this.x = x;
+        this.y = y;
+        this.vel_x = vel_x;
+        this.vel_y = vel_y;
+    }
     // Create a public abstract method called mover.
     public abstract void mover();
     // Create a public abstract method called pintar.
