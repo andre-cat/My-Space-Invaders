@@ -38,6 +38,6 @@ public abstract class Objeto {
     }
     // Create a public abstract method called mover.
     public abstract void mover();
-    // Create a public abstract method called pintar.
-    public abstract void pintar();
+    // Create a public abstract method called atacar.
+    public abstract void atacar();
 }
